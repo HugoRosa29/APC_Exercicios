@@ -1,9 +1,11 @@
 def qualPeriodo(m, a, s):
-    prefixo = int(str(m)[:4])
-    comeco = 2000 + int(str(prefixo)[:2])
-    semestreini = int(str(prefixo)[3])
-    totsemingre= comeco * 2 + semestreini
-    semestretot = a * 2 + s
+    prefixo = str(m)[:4]
 
-    res = semestretot - totsemingre + 1
+    ano_ingresso = 2000 + int(prefixo[:2])
+    semestre_ingresso = int(prefixo[3])
+
+    semestre_total_ingresso = ano_ingresso * 2 + semestre_ingresso
+    semestre_total_atual = a * 2 + s
+
+    res = semestre_total_atual - semestre_total_ingresso + 1
     print(res)
