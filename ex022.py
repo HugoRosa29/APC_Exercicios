@@ -1,0 +1,5 @@
+des = int(input())
+chu = int(input())
+tor = int(input())
+tot = (des * 12) + (chu * 9) + (tor * 2)
+print(f'Você economizou {tot} litros de água')

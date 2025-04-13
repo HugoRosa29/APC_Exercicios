@@ -1,0 +1,7 @@
+lista = input().split()
+a = float(lista[0])
+b = float(lista[1])
+c = float(lista[2])
+tot = (a * 1.1) + (b * 1.1) + (c * 1.1)
+print(f'{a * 1.1:.2f} {b * 1.1:.2f} {c * 1.1:.2f}')
+print(f'{tot:.2f}')
