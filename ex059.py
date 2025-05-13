@@ -3,7 +3,7 @@ def concatenar(a, b):
 def repetir(a, b):
     return a * b
 def ambos(a, b, num):
-    concatenado = concatenar(a, b)
+    concatenado = concatenar(a, b) 
     return repetir(concatenado, num)
 
 lista = input().split()
