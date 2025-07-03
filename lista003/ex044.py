@@ -6,4 +6,4 @@ for _ in range(q):
     r = int(entrada[1])
     s = entrada[2]
     substring = s[l:r+1]
-    print(substring[::-1])
+    print(substring)
